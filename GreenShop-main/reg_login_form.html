@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="/img/GreenShop_favicon.svg" rel="GreenShop icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    
+    <title>GreenShop | Login</title>
+</head>
+
+<body>
+    <section class="global_container">
+        <a href="#" target="_self" class="close_window">
+            <img src="img/X.svg" alt="Close Tab" title="Close Window" width="18px">
+        </a>
+        <div class="inner_container">
+            <div class="LR_Block">
+                <span class="login">Login</span>
+                <span class="separator">I</span>
+                <span class="login register">Register</span>
+            </div>
+            <p class="invitation_text">
+                Enter your email and password to register.
+            </p>
+            <form action="#" class="form_content" method="post">
+                <div class="form_input_wrapper">
+                    <label for="UserName">Please, enter your full Name</label>
+                    <input type="text" name="UserName" placeholder="Username" class="f_input">
+                </div>
+                <div class="form_input_wrapper">
+                    <label for="UserEmail">Enter your valid Email</label>
+                    <input type="email" name="UserEmail" placeholder="Enter your email address" class="f_input">
+                </div>
+                <div>
+                    <label for="UserPass">Enter your password, <span style="color: green;">min 8 symbols requerred</span></label>
+                    <input type="password" name="UserPass" placeholder="Password" class="f_input pwd">    
+                </div>
+                <div>
+                    <label for="UserPass_Confirm">Confirm, entering PASSWORD again!</label>
+                    <input type="password" name="UserPass_Confirm" placeholder="Confirm Password" class="f_input">
+                </div>
+                <label for="Terms" class="terms">
+                    <input type="checkbox" name="Terms" checked>&nbsp;Please read the following Terms & Conditions carefully as they affect your legal rights. These Terms & Conditions contain an arbitration agreement that requires the use of arbitration on an individual basis to resolve disputes rather than jury or any other court proceedings, or class actions of any kind. The arbitration agreement is set forth in the <a href="#">“Arbitration Agreement”</a> section.
+                </label>
+                <button type="submit" class="form_button">Register</button>
+                <p class="reg_with">Or register with</p>
+                <div class="reg_wrapper">
+                    <a href="#" class="links_socials p15" target="_blank">
+                        <img src="img/google_icon.svg" alt="Login with Google Account" title="Login with Google Account">&nbsp;
+                        Continue with Google
+                    </a>
+                    <a href="#" class="links_socials" target="_blank">
+                        <img src="img/facebook icon.svg" alt="Login with Facebook Account" title="Login with Facebook Account">&nbsp;
+                        Continue with Facebook
+                    </a>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+</body>
+</html>

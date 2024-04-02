@@ -1,0 +1,24 @@
+/* === Scatches for Greenshop === */
+/* ============================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: navy;
+    padding: 12px 18px;
+    border: orange 2px solid;
+    border-radius: 12px;
+    text-decoration: none;
+
+    /*justify-content: center;
+    align-items: center;*/
+    
+}
